@@ -3,4 +3,8 @@ const mongoose = require ('../Model');
 //CRUD 
 
 //POST
-
+function POST (req,res) {
+    const bodega = new bodega({
+        Sku : (req, res) 
+    })
+}
